@@ -167,7 +167,7 @@
 		CEFAE5622406E7E8002AB5E6 /* BSDLNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				CEFAE5632406E830002AB5E6 /* BSDLNetworkManager.swift */,
+				CEFAE5812406F3B8002AB5E6 /* Source */,
 			);
 			path = BSDLNetworkManager;
 			sourceTree = "<group>";
@@ -186,6 +186,14 @@
 				CEFAE5772406EF0A002AB5E6 /* Pods_BSDevLibs.framework */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CEFAE5812406F3B8002AB5E6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE5632406E830002AB5E6 /* BSDLNetworkManager.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
