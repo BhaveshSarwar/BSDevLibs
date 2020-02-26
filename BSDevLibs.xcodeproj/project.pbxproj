@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6BD44371CFE2DE88DEE9621 /* Pods_BSDevLibs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF4CAAA19C9F4394044E0D /* Pods_BSDevLibs.framework */; };
+		CBDAEC0C75F10392A3FB15DE /* Pods_BSDevLibs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAE5772406EF0A002AB5E6 /* Pods_BSDevLibs.framework */; };
 		CEFAE5442406DE5C002AB5E6 /* BSDevLibs.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFAE5422406DE5C002AB5E6 /* BSDevLibs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEFAE5512406DEB6002AB5E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAE5502406DEB6002AB5E6 /* AppDelegate.swift */; };
 		CEFAE5532406DEB6002AB5E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAE5522406DEB6002AB5E6 /* SceneDelegate.swift */; };
@@ -14,9 +16,45 @@
 		CEFAE5582406DEB6002AB5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFAE5562406DEB6002AB5E6 /* Main.storyboard */; };
 		CEFAE55A2406DEB7002AB5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFAE5592406DEB7002AB5E6 /* Assets.xcassets */; };
 		CEFAE55D2406DEB7002AB5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFAE55B2406DEB7002AB5E6 /* LaunchScreen.storyboard */; };
+		CEFAE5642406E830002AB5E6 /* BSDLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAE5632406E830002AB5E6 /* BSDLNetworkManager.swift */; };
+		CEFAE5672406E8E3002AB5E6 /* BLNetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAE5662406E8E3002AB5E6 /* BLNetworkServices.swift */; };
+		CEFAE5682406EC55002AB5E6 /* BSDevLibs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAE53F2406DE5C002AB5E6 /* BSDevLibs.framework */; };
+		CEFAE5692406EC55002AB5E6 /* BSDevLibs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAE53F2406DE5C002AB5E6 /* BSDevLibs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEFAE5792406EF0A002AB5E6 /* Pods_BSDevLibs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAE5772406EF0A002AB5E6 /* Pods_BSDevLibs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9A8438673CC4DB53E55FC1B /* Pods_BSDevLibsExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800CB18EE9D728D0EA19BC8C /* Pods_BSDevLibsExamples.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CEFAE56A2406EC55002AB5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFAE5362406DE5C002AB5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFAE53E2406DE5C002AB5E6;
+			remoteInfo = BSDevLibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEFAE56C2406EC55002AB5E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEFAE5692406EC55002AB5E6 /* BSDevLibs.framework in Embed Frameworks */,
+				CEFAE5792406EF0A002AB5E6 /* Pods_BSDevLibs.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		47F7BABC3699DB414C11CB09 /* Pods-BSDevLibsExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSDevLibsExamples.debug.xcconfig"; path = "Target Support Files/Pods-BSDevLibsExamples/Pods-BSDevLibsExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		7BBF4CAAA19C9F4394044E0D /* Pods_BSDevLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSDevLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800CB18EE9D728D0EA19BC8C /* Pods_BSDevLibsExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSDevLibsExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C34204AB309EC8834A3B76D /* Pods-BSDevLibs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSDevLibs.release.xcconfig"; path = "Target Support Files/Pods-BSDevLibs/Pods-BSDevLibs.release.xcconfig"; sourceTree = "<group>"; };
+		CC9BDC7159F989CD39962F7B /* Pods-BSDevLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSDevLibs.debug.xcconfig"; path = "Target Support Files/Pods-BSDevLibs/Pods-BSDevLibs.debug.xcconfig"; sourceTree = "<group>"; };
 		CEFAE53F2406DE5C002AB5E6 /* BSDevLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSDevLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFAE5422406DE5C002AB5E6 /* BSDevLibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDevLibs.h; sourceTree = "<group>"; };
 		CEFAE5432406DE5C002AB5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +66,12 @@
 		CEFAE5592406DEB7002AB5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFAE55C2406DEB7002AB5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFAE55E2406DEB7002AB5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFAE5632406E830002AB5E6 /* BSDLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSDLNetworkManager.swift; sourceTree = "<group>"; };
+		CEFAE5662406E8E3002AB5E6 /* BLNetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLNetworkServices.swift; sourceTree = "<group>"; };
+		CEFAE5732406EE9E002AB5E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFAE5772406EF0A002AB5E6 /* Pods_BSDevLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BSDevLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFAE57A2406EF8A002AB5E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30D40A8544E6885516B97BC /* Pods-BSDevLibsExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSDevLibsExamples.release.xcconfig"; path = "Target Support Files/Pods-BSDevLibsExamples/Pods-BSDevLibsExamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BD44371CFE2DE88DEE9621 /* Pods_BSDevLibs.framework in Frameworks */,
+				CBDAEC0C75F10392A3FB15DE /* Pods_BSDevLibs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,18 +88,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A8438673CC4DB53E55FC1B /* Pods_BSDevLibsExamples.framework in Frameworks */,
+				CEFAE5682406EC55002AB5E6 /* BSDevLibs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3368C309B529468CBC45478C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE57A2406EF8A002AB5E6 /* Alamofire.framework */,
+				CEFAE5732406EE9E002AB5E6 /* Alamofire.framework */,
+				7BBF4CAAA19C9F4394044E0D /* Pods_BSDevLibs.framework */,
+				800CB18EE9D728D0EA19BC8C /* Pods_BSDevLibsExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F8F0FC9AE4ABF3638D828FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC9BDC7159F989CD39962F7B /* Pods-BSDevLibs.debug.xcconfig */,
+				8C34204AB309EC8834A3B76D /* Pods-BSDevLibs.release.xcconfig */,
+				47F7BABC3699DB414C11CB09 /* Pods-BSDevLibsExamples.debug.xcconfig */,
+				D30D40A8544E6885516B97BC /* Pods-BSDevLibsExamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEFAE5352406DE5C002AB5E6 = {
 			isa = PBXGroup;
 			children = (
 				CEFAE5412406DE5C002AB5E6 /* BSDevLibs */,
 				CEFAE54F2406DEB6002AB5E6 /* BSDevLibsExamples */,
 				CEFAE5402406DE5C002AB5E6 /* Products */,
+				3F8F0FC9AE4ABF3638D828FC /* Pods */,
+				3368C309B529468CBC45478C /* Frameworks */,
+				CEFAE5802406F242002AB5E6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +142,7 @@
 		CEFAE5412406DE5C002AB5E6 /* BSDevLibs */ = {
 			isa = PBXGroup;
 			children = (
+				CEFAE5622406E7E8002AB5E6 /* BSDLNetworkManager */,
 				CEFAE5422406DE5C002AB5E6 /* BSDevLibs.h */,
 				CEFAE5432406DE5C002AB5E6 /* Info.plist */,
 			);
@@ -78,6 +152,7 @@
 		CEFAE54F2406DEB6002AB5E6 /* BSDevLibsExamples */ = {
 			isa = PBXGroup;
 			children = (
+				CEFAE5652406E8A8002AB5E6 /* BSDLNetworkManager Demo */,
 				CEFAE5502406DEB6002AB5E6 /* AppDelegate.swift */,
 				CEFAE5522406DEB6002AB5E6 /* SceneDelegate.swift */,
 				CEFAE5542406DEB6002AB5E6 /* ViewController.swift */,
@@ -87,6 +162,38 @@
 				CEFAE55E2406DEB7002AB5E6 /* Info.plist */,
 			);
 			path = BSDevLibsExamples;
+			sourceTree = "<group>";
+		};
+		CEFAE5622406E7E8002AB5E6 /* BSDLNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE5812406F3B8002AB5E6 /* Source */,
+			);
+			path = BSDLNetworkManager;
+			sourceTree = "<group>";
+		};
+		CEFAE5652406E8A8002AB5E6 /* BSDLNetworkManager Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE5662406E8E3002AB5E6 /* BLNetworkServices.swift */,
+			);
+			path = "BSDLNetworkManager Demo";
+			sourceTree = "<group>";
+		};
+		CEFAE5802406F242002AB5E6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE5772406EF0A002AB5E6 /* Pods_BSDevLibs.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CEFAE5812406F3B8002AB5E6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAE5632406E830002AB5E6 /* BSDLNetworkManager.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFAE5472406DE5C002AB5E6 /* Build configuration list for PBXNativeTarget "BSDevLibs" */;
 			buildPhases = (
+				3AC5C762D7575668C871517E /* [CP] Check Pods Manifest.lock */,
 				CEFAE53A2406DE5C002AB5E6 /* Headers */,
 				CEFAE53B2406DE5C002AB5E6 /* Sources */,
 				CEFAE53C2406DE5C002AB5E6 /* Frameworks */,
@@ -125,13 +233,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFAE55F2406DEB7002AB5E6 /* Build configuration list for PBXNativeTarget "BSDevLibsExamples" */;
 			buildPhases = (
+				572C3043251C8BD73CB7BF5C /* [CP] Check Pods Manifest.lock */,
 				CEFAE54A2406DEB6002AB5E6 /* Sources */,
 				CEFAE54B2406DEB6002AB5E6 /* Frameworks */,
 				CEFAE54C2406DEB6002AB5E6 /* Resources */,
+				CEFAE56C2406EC55002AB5E6 /* Embed Frameworks */,
+				6E857C09D284BDC2DB478E24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CEFAE56B2406EC55002AB5E6 /* PBXTargetDependency */,
 			);
 			name = BSDevLibsExamples;
 			productName = BSDevLibsExamples;
@@ -150,6 +262,7 @@
 				TargetAttributes = {
 					CEFAE53E2406DE5C002AB5E6 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					CEFAE54D2406DEB6002AB5E6 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -195,11 +308,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AC5C762D7575668C871517E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSDevLibs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		572C3043251C8BD73CB7BF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSDevLibsExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E857C09D284BDC2DB478E24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BSDevLibsExamples/Pods-BSDevLibsExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BSDevLibsExamples/Pods-BSDevLibsExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BSDevLibsExamples/Pods-BSDevLibsExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEFAE53B2406DE5C002AB5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFAE5642406E830002AB5E6 /* BSDLNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,11 +387,20 @@
 			files = (
 				CEFAE5552406DEB6002AB5E6 /* ViewController.swift in Sources */,
 				CEFAE5512406DEB6002AB5E6 /* AppDelegate.swift in Sources */,
+				CEFAE5672406E8E3002AB5E6 /* BLNetworkServices.swift in Sources */,
 				CEFAE5532406DEB6002AB5E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFAE56B2406EC55002AB5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFAE53E2406DE5C002AB5E6 /* BSDevLibs */;
+			targetProxy = CEFAE56A2406EC55002AB5E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CEFAE5562406DEB6002AB5E6 /* Main.storyboard */ = {
@@ -357,7 +544,9 @@
 		};
 		CEFAE5482406DE5C002AB5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9BDC7159F989CD39962F7B /* Pods-BSDevLibs.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2WR2VVTMNL;
@@ -374,6 +563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bsdev..BSDevLibs;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,7 +571,9 @@
 		};
 		CEFAE5492406DE5C002AB5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C34204AB309EC8834A3B76D /* Pods-BSDevLibs.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2WR2VVTMNL;
@@ -405,6 +597,7 @@
 		};
 		CEFAE5602406DEB7002AB5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F7BABC3699DB414C11CB09 /* Pods-BSDevLibsExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +616,7 @@
 		};
 		CEFAE5612406DEB7002AB5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30D40A8544E6885516B97BC /* Pods-BSDevLibsExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
