@@ -15,8 +15,8 @@ This CocoaPods library helps you perform calculation.
   s.ios.deployment_target = "12.1"
   s.swift_version = "4.2"
 
-  s.source        = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{s.version}" }
-  s.source_files  = "BSDevLibs/**/*.{h,m,swift}"
+  s.source        = { :git => "https://github.com/BhaveshSarwar/BSDevLibs.git", :tag => "#{s.version}" }
+
 
   s.subspec "BSDLNetworkManager" do |component|
     component.ios.deployment_target = '10.0'
